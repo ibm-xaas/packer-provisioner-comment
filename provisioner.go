@@ -55,7 +55,7 @@ func (p *CommentProvisioner) Provision(_ context.Context, ui packer.Ui, _ packer
 
 	if p.config.SendToUi {
 		if p.config.Bubble {
-			myFigure := figure.NewFigure(comment, "", false)
+			myFigure := figure.NewFigure(comment, "speed", true)
 			ui.Say(myFigure.String())
 		} else if p.config.PackerSay {
 			// CreatePackerFriend is defined in happy_packy.go

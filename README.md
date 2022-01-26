@@ -16,7 +16,7 @@ commands:
 go mod init main
 go build
 mkdir ~/.packer.d/plugins
-mv main ~/.packer.d/plugins/packer-provisioner-comment
+mv main ~/.packer.d/plugins/packer-plugin-comment
 ```
 
 ## Use
