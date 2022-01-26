@@ -22,6 +22,18 @@ mv main ~/.packer.d/plugins/packer-plugin-comment
 ## Use
 
 In order to test the plugin, create the following test file
+``` hcl2
+  provisioner "comment" {
+    comment = "GENESIS"
+    ui = true
+    bubble_text = true
+  }
+  provisioner "comment" {
+    comment = "SEUNGYEOP"
+    ui = true
+    bubble_text = true
+  }
+```
 ``` json
 
 {
