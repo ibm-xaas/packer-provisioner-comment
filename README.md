@@ -4,6 +4,15 @@ how to create and use their own third-party Packer plugins. It uses
 cutting-edge ascii art technology to add fancy bubble text comments to your
 Packer run output.
 
+```
+==> ibmcloud-vpc.ubuntu-focal: ________________________   ____________________________________
+==> ibmcloud-vpc.ubuntu-focal: __  ____/___  ____/___  | / /___  ____/__  ___/____  _/__  ___/
+==> ibmcloud-vpc.ubuntu-focal: _  / __  __  __/   __   |/ / __  __/   _____ \  __  /  _____ \
+==> ibmcloud-vpc.ubuntu-focal: / /_/ /  _  /___   _  /|  /  _  /___   ____/ / __/ /   ____/ /
+==> ibmcloud-vpc.ubuntu-focal: \____/   /_____/   /_/ |_/   /_____/   /____/  /___/   /____/
+==> ibmcloud-vpc.ubuntu-focal:
+```
+
 ![bubble text](./screenshot.png)
 
 
