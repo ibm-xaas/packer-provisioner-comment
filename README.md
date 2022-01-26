@@ -37,11 +37,7 @@ In order to test the plugin, create the following test file
     ui = true
     bubble_text = true
   }
-  provisioner "comment" {
-    comment = "SEUNGYEOP"
-    ui = true
-    bubble_text = true
-  }
+
 ```
 ``` json
 
