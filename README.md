@@ -31,6 +31,7 @@ mv main ~/.packer.d/plugins/packer-plugin-comment
 ## Use
 
 In order to test the plugin, create the following test file
+
 hcl2 template:
 ``` hcl2
   provisioner "comment" {
@@ -40,6 +41,7 @@ hcl2 template:
   }
 
 ```
+
 json template:
 ``` json
 
